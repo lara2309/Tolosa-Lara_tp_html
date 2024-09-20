@@ -1,0 +1,24 @@
+.Bloque {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+.comun{
+    margin: 10px;
+    border: 1px solid black;
+}
+#rojo{
+    background-color: red;
+    top: 100px;
+    left: 100px;
+}
+#verde{
+    background-color: green;
+    top: 150px;
+    left: 150px;
+}
+#azul{
+    background-color: blue;
+    top: 200px;
+    left: 200px;
+}
