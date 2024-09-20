@@ -1,0 +1,47 @@
+table {
+    width: 100%;
+    border-collapse: collapse; /* Para que los bordes de las celdas se vean unidos */
+}
+
+/* Estilo para los encabezados de la tabla */
+th {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, sans-serif;
+    width: 170px; /* Ancho de las columnas */
+    padding: 10px;
+}
+
+/* Estilo para las celdas del cuerpo de la tabla */
+td {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: blue;
+    border: 1px solid black; /* Borde para las celdas */
+    padding: 8px 4px; /* 8px vertical, 4px lateral */
+}
+
+/* Estilo para las celdas con clase "destacar" */
+.destacar {
+    background-color: red;
+    color: white;
+}
+
+/* Estilo para las filas al pasar el cursor sobre ellas (excepto el encabezado y pie) */
+tbody tr:hover {
+    background-color: red; /* Color de fondo al pasar el cursor */
+    color: white; /* Color del texto para que contraste con el fondo rojo */
+}
+
+/* Estilo para el pie de la tabla */
+tfoot td {
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Estilo para el titular (caption) de la tabla */
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Espacio entre caption y la tabla */
+}
