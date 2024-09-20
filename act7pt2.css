@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    color: rgb(206, 21, 21);
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    color: green;
+    margin: 100;
+}
